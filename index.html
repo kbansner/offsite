@@ -37,68 +37,75 @@
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
         <section>
-          <img src="images/1_old-colors.png" width="1024" height="768" alt="1 Old Colors">
-          <figcaption>Old Colors</figcaption>
-        </section>
-        <section>
-          <img src="images/2_colors-final.png" width="1024" height="768" alt="2 Colors Final">
+          <section>
+            <h2>Title slide</h2>
+          </section>
+
+          <section>
+            <img src="images/1_old-colors.png" width="1024" height="768" alt="1 Old Colors">
+            <figcaption>Old Colors</figcaption>
+          </section>
+
+          <section>
+            <img src="images/2_colors-final.png" width="1024" height="768" alt="2 Colors Final">
+            <img src="images/3_colors-final-words.png" width="1024" height="768" alt="3 Colors Final Words" class="fragment" style="position: relative; margin-top: -900px;">
+          </section>
+
+          <section>
+            <img src="images/4_colors-accents.png" width="1024" height="768" alt="4 Colors Accents">
+          </section>
+
+          <section>
+            <img src="images/5_colors-inuse-2.png" width="1024" height="768" alt="5 Colors Inuse 2">
+          </section>
+
+          <section>
+            <img src="images/6_colors-inuse-1.png" width="1024" height="768" alt="6 Colors Inuse 1">
+          </section>
+
         </section>
 
         <section>
-          <img src="images/3_colors-final-words.png" width="1024" height="768" alt="3 Colors Final Words">
-        </section>
+          <section>
+            <h2>New look for old pages</h2>
+          </section>
 
-        <section>
-          <img src="images/4_colors-accents.png" width="1024" height="768" alt="4 Colors Accents">
-        </section>
+          <section>
+            <img src="images/7_old-home.png" width="1024" height="768" alt="7 Old Home">
+          </section>
 
-        <section>
-          <img src="images/5_colors-inuse-2.png" width="1024" height="768" alt="5 Colors Inuse 2">
-        </section>
+          <section>
+            <a href="9_Home-Exploration-newcolors-full.html">
+              <img src="images/8_Home-Exploration-newcolors-small.png" width="1024" height="768" alt="8 Home Exploration Newcolors Small">
+            </a>
+          </section>
 
-        <section>
-          <img src="images/6_colors-inuse-1.png" width="1024" height="768" alt="6 Colors Inuse 1">
-        </section>
+          <section>
+            <img src="images/10_old-product-detail.png" width="1024" height="768" alt="10 Old Product Detail">
+          </section>
 
-        <section>
-          <h2>New look for old pages</h2>
-        </section>
+          <section>
+            <a href="12_ProductPage-July13-full.html">
+              <img src="images/11_ProductPage-July13-small.png" width="1024" height="768" alt="11 ProductPage July13 Small">
+            </a>
+          </section>
 
-        <section>
-          <img src="images/7_old-home.png" width="1024" height="768" alt="7 Old Home">
-        </section>
+          <section>
+            <img src="images/13_StylePage-sportsbras-old.png" width="1024" height="768" alt="13 StylePage Sportsbras Old">
+          </section>
 
-        <section>
-          <a href="9_Home-Exploration-newcolors-full.html">
-            <img src="images/8_Home-Exploration-newcolors-small.png" width="1024" height="768" alt="8 Home Exploration Newcolors Small">
-          </a>
-        </section>
+          <section>
+            <img src="images/14_StylePage-sportsbras.png" width="1024" height="768" alt="14 StylePage Sportsbras">
+          </section>
 
-        <section>
-          <img src="images/10_old-product-detail.png" width="1024" height="768" alt="10 Old Product Detail">
-        </section>
+          <section>
+            <img src="images/15_old-personalshop.png" width="1024" height="768" alt="15 Old Personalshop">
+          </section>
 
-        <section>
-          <a href="12_ProductPage-July13-full.html">
-            <img src="images/11_ProductPage-July13-small.png" width="1024" height="768" alt="11 ProductPage July13 Small">
-          </a>
-        </section>
-
-        <section>
-          <img src="images/13_StylePage-sportsbras-old.png" width="1024" height="768" alt="13 StylePage Sportsbras Old">
-        </section>
-
-        <section>
-          <img src="images/14_StylePage-sportsbras.png" width="1024" height="768" alt="14 StylePage Sportsbras">
-        </section>
-
-        <section>
-          <img src="images/15_old-personalshop.png" width="1024" height="768" alt="15 Old Personalshop">
-        </section>
-
-        <section>
-          <a href="17_PersonalShop-Exploration-Full.html">
-            <img src="images/16_PersonalShop-Exploration-small.png" width="1024" height="768" alt="16 PersonalShop Exploration Small"></a>
+          <section>
+            <a href="17_PersonalShop-Exploration-Full.html">
+              <img src="images/16_PersonalShop-Exploration-small.png" width="1024" height="768" alt="16 PersonalShop Exploration Small"></a>
+          </section>
         </section>
 
         <section>
@@ -130,10 +137,10 @@
         controls: true,
         progress: true,
         history: true,
-        center: true,
+        center: false,
 
         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        transition: 'zoom', // default/cube/page/concave/zoom/linear/fade/none
 
         // Optional libraries used to extend on reveal.js
         dependencies: [
