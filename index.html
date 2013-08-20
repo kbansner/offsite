@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>True Bootstrap CSS</title>
+    <title>Retreat Design Presentation</title>
 
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Hakim El Hattab">
@@ -14,7 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/serif.css" id="theme">
 
     <!-- For syntax highlighting -->
@@ -36,647 +36,91 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-
         <section>
-          <h1>True Bootstrap CSS</h1>
-          <h3>Customizing Bootstrap</h3>
-          <p>
-            <!-- <small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small> -->
-          </p>
+          <img src="images/1_old-colors.png" width="1024" height="768" alt="1 Old Colors">
+          <figcaption>Old Colors</figcaption>
         </section>
-
         <section>
-          <h2>Why use Bootstrap?</h2>
-          <ul>
-            <li>It’s a well documented standard.</li>
-            <li>It has a base component for almost everything we need.</li>
-            <li>Includes a <a href="https://trueandco.com/style_guide/scaffolding.html#responsive">responsive</a> grid for smaller and larger devices</li>
-          </ul>
-
-          <aside class="notes">
-            Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-          </aside>
+          <img src="images/2_colors-final.png" width="1024" height="768" alt="2 Colors Final">
         </section>
 
         <section>
-          <h2>
-            Downside of a CSS Library
-          </h2>
-          <ul>
-            <li>
-              It comes with baggage.
-            </li>
-            <li>
-              CSS becomes bloated when extending and customizing the base styles.
-            </li>
-          </ul>
+          <img src="images/3_colors-final-words.png" width="1024" height="768" alt="3 Colors Final Words">
         </section>
 
         <section>
-          <h2>
-            Best practices
-          </h2>
-          <ul>
-            <li>Maximize reuse of rules</li>
-            <li>Maximize reuse of rules</li>
-            <li>3x maximize reuse of rules</li>
-          </ul>
+          <img src="images/4_colors-accents.png" width="1024" height="768" alt="4 Colors Accents">
         </section>
 
         <section>
-          <h2>
-            How to make reusable rules...
-          </h2>
-          <ul>
-            <li>Make small modules</li>
-            <li>Combine 2 to 4 classes on an element <br>
-              <code><small>&lt;table class="table table-striped table-hover"&gt;</small></code></li>
-            <li>Avoid nesting rules more than 3 levels deep</li>
-          </ul>
+          <img src="images/5_colors-inuse-2.png" width="1024" height="768" alt="5 Colors Inuse 2">
         </section>
 
         <section>
-          <h2>
-            Style Guides
-          </h2>
-          <ul>
-            <li><a href="https://github.com/styleguide/css">GitHub CSS Styleguide</a></li>
-            <li><a href="https://github.com/stubbornella/oocss-code-standards">OOCSS Code Standards - stubbornella</a></li>
-          </ul>
-        </section>
-
-
-        <!-- Example of nested vertical slides -->
-        <section>
-          <section>
-            <h2>Page Markup</h2>
-            <a href="https://trueandco.com/style_guide/examples/giftcard.html"><img src="https://trueandco.com/assets/style_guide/examples/true-example-giftcards.png"></a>
-            <a href="https://trueandco.com/style_guide/examples/giftcard.html"><img src="https://trueandco.com/assets/style_guide/examples/true-example-giftcards.png"></a>
-            <a href="https://trueandco.com/style_guide/examples/giftcard.html"><img src="https://trueandco.com/assets/style_guide/examples/true-example-giftcards.png"></a>
-          </section>
-          <section>
-            <h2>A page is a layout with components</h2>
-            <p>If you are lucky all the pieces already exist.</p>
-          </section>
-          <section>
-            <h2>Check the Style Guide</h2>
-            <a class="test" href="https://trueandco.com/style_guide/getting-started.html">
-              <img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-            </a>
-          </section>
+          <img src="images/6_colors-inuse-1.png" width="1024" height="768" alt="6 Colors Inuse 1">
         </section>
 
         <section>
-          <section>
-            <h2>Name that module...</h2>
-            <img src="images/media-example.png" alt="">
-
-            <pre class="fragment" style="margin-top: -250px;"><code contenteditable style="font-size: 18px;">&lt;div class=&quot;media order-media-module&quot;&gt;
-    &lt;div class=&quot;pull-left&quot;&gt;
-      &lt;img alt=&quot;Michelle-jan-19-3-280px&quot; class=&quot;media-object&quot; src=&quot;https://s3.amazonaws.com/trueandco_prod/product_images/pictures/360/thumb/Michelle-Jan-19-3-280px.jpg?1327105867&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;media-body&quot;&gt;
-      &lt;div class=&quot;media-heading&quot;&gt;Christelle&lt;/div&gt;
-      &lt;div&gt;
-        34D
-        -
-        $45
-      &lt;/div&gt;
-      &lt;div&gt;Black&lt;/div&gt;
-      &lt;div&gt;20037&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-            </code></pre>
-          </section>
-
-          <section>
-            <img src="images/table-example.png" alt="">
-
-            <pre class="fragment roll-in" style="margin-top: -150px;"><code contenteditable style="font-size: 18px;">&lt;table class=&quot;table table-striped table-hover&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Transaction Date&lt;/th&gt;
-      &lt;th&gt;Order #&lt;/th&gt;
-      &lt;th&gt;Tracking Link&lt;/th&gt;
-      &lt;th&gt;Shipping Address&lt;/th&gt;
-      &lt;th&gt;Payment&lt;/th&gt;
-      &lt;th&gt;Status&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr data-order-id=&quot;168881&quot;&gt;
-      &lt;td&gt;
-        March 5th, 2013
-      &lt;/td&gt;
-      &lt;td&gt;
-        168881
-      &lt;/td&gt;
-      &lt;td&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;a href=&quot;/my/payment&quot;&gt;3433 25th Street San Francisco CA 94110&lt;/a&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-        No credit card data available
-      &lt;/td&gt;
-      &lt;td&gt;
-        &lt;a href=&quot;/my/orders/168881&quot; class=&quot;btn btn-mini&quot; data-view-order=&quot;true&quot;&gt;View Order&lt;/a&gt;
-      &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-            </code></pre>
-          </section>
-          <section>
-            <img src="images/table-desktop-example.png" alt="">
-            <img class="fragment" src="images/table-phone-example.png" alt="" style="margin-top: -600px;">
-          </section>
-
-          <section>
-            <img src="images/modal-example.png" alt="">
-            <pre class="fragment" style="margin-top: -450px;"><code contenteditable style="font-size: 16px;">&lt;div class=&quot;modal container hide fade in&quot; id=&quot;variantDetailModal&quot; aria-hidden=&quot;false&quot;&gt;
-  &lt;button aria-hidden=&quot;true&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; type=&quot;button&quot;&gt;x&lt;/button&gt;
-  &lt;div class=&quot;modal-body product-detail-module&quot;&gt;
-    &lt;div class=&quot;row-fluid divided&quot;&gt;
-      &lt;div class=&quot;span3&quot;&gt;
-        &lt;div class=&quot;inner product-info&quot;&gt;
-          &lt;h1 class=&quot;h4&quot;&gt;Midnight Kiss&lt;/h1&gt;
-          &lt;div class=&quot;brand&quot;&gt;Blush&lt;/div&gt;
-        &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;span6 horz-ruled&quot;&gt;
-        &lt;div class=&quot;inner image-info&quot; style=&quot;min-height: 485px; &quot;&gt;
-          &lt;div class=&quot;image-main&quot;&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;span3&quot;&gt;
-        &lt;div class=&quot;inner action-info&quot;&gt;
-          &lt;div class=&quot;btn-wrap&quot;&gt;
-            &lt;a href=&quot;/cart/edit/1141?quantity=1&quot; class=&quot;btn btn-primary btn-block btn-small add&quot; data-id=&quot;1141&quot;&gt;Add to Cart&lt;/a&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;row-fluid&quot;&gt;
-    &lt;div class=&quot;related-module span12&quot;&gt;
-      &lt;div class=&quot;related-items&quot;&gt;
-        &lt;label&gt;Related Items:&lt;/label&gt;
-        &lt;ul&gt;
-          &lt;li class=&quot;related-item&quot;&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-            </code></pre>
-
-          </section>
-          <section>
-            <img src="images/faq-example.png" alt="">
-            <pre class="fragment" style="margin-top: -450px;"><code contenteditable style="font-size: 16px;">&lt;div class=&quot;tabbable tabs-left tabs-page row&quot;&gt;
-  &lt;ul class=&quot;nav nav-tabs span4&quot;&gt;
-    &lt;li class=&quot;active&quot;&gt;
-      &lt;a data-toggle=&quot;tab&quot; href=&quot;#faq1&quot;&gt;Home try-on program&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;a data-toggle=&quot;tab&quot; href=&quot;#faq2&quot;&gt;Bra Fitting, Sizes and Styles&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;a data-toggle=&quot;tab&quot; href=&quot;#faq3&quot;&gt;Order and Account information&lt;/a&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;div class=&quot;tab-content faq-content span7&quot;&gt;
-    &lt;div class=&quot;tab-pane accordion active&quot; id=&quot;faq1&quot;&gt;
-      &lt;div class=&quot;accordion-group&quot;&gt;
-        &lt;div class=&quot;accordion-body collapse&quot; id=&quot;faq1answer2&quot;&gt;
-        &lt;div class=&quot;accordion-body collapse&quot; id=&quot;faq1answer3&quot;&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-            </code></pre>
-
-          </section>
-        </section>
-        
-        <section>
-          <section>
-            <h2>Adding new CSS rules</h2>
-            <a href="https://github.com/trueandcoadmin/trueandco-web/blob/master/app/views/auth/signin.html.haml"><img src="images/signin-example.png"></a>
-            <pre class="fragment"><code contenteditable style="font-size: 18px; margin-top: -250px;">// Core variables and mixins
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
-
-/*
-* Signin Controller css Manifest
-*/
-@import "components/signin";
-            </code></pre>
-            <pre class="fragment"><code contenteditable style="font-size: 18px; margin-top: -250px;">// Signin module
-// -------------------------------------------------------------
-
-.signin-module {
-  margin-left: auto;
-  margin-right: auto;
-  padding: $l-space 0;
-  max-width: 860px;
-
-  ol {
-    padding-right: 40px;
-  }
-
-  ol li {
-    padding-bottom: 5px;
-  }
-
-  .action {
-    margin-top: 10px;
-    width: 160px;
-  }
-
-  .action-bottom {
-    .push {
-      height: 25px;
-    }
-    .btn {
-      width: 160px;
-      position: absolute;
-      bottom: 0;
-    }
-  }
-
-  .divided {
-    position: relative;
-  }
-}
-
-// Responsive
-// For Signin module
-// -------------------------------------------------------------
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  .signin-module .action-bottom {
-    .push {
-      height: 0;
-    }
-    .btn {
-      margin-bottom: $l-space;
-      width: 160px;
-      position: relative;
-      bottom: auto;
-    }
-  }
-}
-            </code></pre>
-          </section>
-          <section>
-            <h2>The case for inline CSS</h2>
-            <a href="https://trueandco.com/style_guide/examples/giftcard.html"><img src="images/inline-css-example.png"></a>
-            <pre class="fragment"><code contenteditable style="font-size: 18px; margin-top: -600px">- content_for :css do
-:css
-  .giftcard-module {
-    margin-top: 30px
-  }
-
-  .giftcard-module [class*="span"].active .inner,
-  .giftcard-module [class*="span"]:hover .inner {
-    background-color: #fadad2;
-  }
-
-  .giftcard-module .inner {
-    display: block;
-    margin: 0 20px 0;
-    padding: 0;
-    border: 1px solid transparent;
-  }
-
-  .giftcard-module .inner.is-focus {
-    outline: 1px dotted #333;
-    /* Webkit */
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
-  }
-
-  .giftcard-module p.body {
-    margin-bottom: 0;
-  }
-
-  .giftcard-module img {
-    border: 1px solid #ccc;
-  }
-
-  .how-it-works-module {
-    margin-top: 40px;
-  }
-
-  .how-it-works-module .thumbnails.thumbnails-ruled .thumbnail .inner {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .hero-sidekick {
-    margin: 30px auto;
-    width: 866px;
-    height: 577px;
-    background-image: url(/assets/giftcard/hero.jpg);
-  }
-
-  .hero-sidekick .hero-heading {
-    position: absolute;
-    left: 40px;
-    bottom: auto;
-    top: 270px;
-    max-width: 470px;
-  }
-
-            </code></pre>
-            
-          </section>
-          <section>
-            <h2>Cases for inline CSS</h2>
-            <ul class="fragment">
-              <li>As non-reusable customization layer</li>
-              <li>For low traffic page which wouldn't benifit greatly from caching CSS rules</li>
-              <li>Fewer http request for an external css files</li>
-              <li>Tightly coupled to markup for easy archiving</li>
-              <li>No risk of breaking other page layouts</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Down of inline CSS</h2>
-            <ul class="fragment">
-              <li>It isn't cached</li>
-              <li>No SASS or SASS variables</li>
-              <li>May lead to more css rules and inconsistencies</li>
-            </ul>
-          </section>
+          <h2>New look for old pages</h2>
         </section>
 
         <section>
-          <h2>Optimization</h2>
-          <a href="https://trueandco.com"><img src="images/optimize-example.png"></a>
-        </section>
-        <!-- <section>
-          <h2>Point of View</h2>
-          <p>
-            Press <strong>ESC</strong> to enter the slide overview. Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-          </p>
+          <img src="images/7_old-home.png" width="1024" height="768" alt="7 Old Home">
         </section>
 
         <section>
-          <h2>rvl.io</h2>
-          <p>
-            If you don't like writing slides in HTML you can use the online editor <a href="http://www.rvl.io" target="_blank">rvl.io</a>.
-          </p>
-        </section>
-
-        <section>
-          <h2>Works in Mobile Safari</h2>
-          <p>
-            Try it out! You can swipe through the slides and pinch your way to the overview.
-          </p>
-        </section>
-
-        <section>
-          <h2>Marvelous Unordered List</h2>
-          <ul>
-            <li>No order here</li>
-            <li>Or here</li>
-            <li>Or here</li>
-            <li>Or here</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Fantastic Ordered List</h2>
-          <ol>
-            <li>One is smaller than...</li>
-            <li>Two is smaller than...</li>
-            <li>Three!</li>
-          </ol>
-        </section>
-
-        <section data-markdown>
-          <script type="text/template">
-            ## Markdown support
-
-            For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-              <section data-markdown>
-                ## Markdown support
-
-                For those of you who like that sort of thing.
-                Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-              </section>
-          </script>
-        </section>
-
-        <section id="transitions">
-          <h2>Transition Styles</h2>
-          <p>
-            You can select from different transitions, like: <br>
-            <a href="?transition=cube#/transitions">Cube</a> -
-            <a href="?transition=page#/transitions">Page</a> -
-            <a href="?transition=concave#/transitions">Concave</a> -
-            <a href="?transition=zoom#/transitions">Zoom</a> -
-            <a href="?transition=linear#/transitions">Linear</a> -
-            <a href="?transition=fade#/transitions">Fade</a> -
-            <a href="?transition=none#/transitions">None</a> -
-            <a href="?#/transitions">Default</a>
-          </p>
-        </section>
-
-        <section id="themes">
-          <h2>Themes</h2>
-          <p>
-            Reveal.js comes with a few themes built in: <br>
-            <a href="?theme=sky#/themes">Sky</a> -
-            <a href="?theme=beige#/themes">Beige</a> -
-            <a href="?theme=simple#/themes">Simple</a> -
-            <a href="?theme=serif#/themes">Serif</a> -
-            <a href="?theme=night#/themes">Night</a> -
-            <a href="?#/themes">Default</a>
-          </p>
-          <p>
-            <small>
-              * Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-            </small>
-          </p>
-        </section>
-
-        <section>
-          <section data-state="alert">
-            <h2>Global State</h2>
-            <p>
-              Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-              will be added as a class to the document element when the slide is open. This lets you
-              apply broader style changes, like switching the background.
-            </p>
-            <a href="#" class="image navigate-down">
-              <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-            </a>
-          </section>
-          <section data-state="blackout">
-            <h2>"blackout"</h2>
-            <a href="#" class="image navigate-down">
-              <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-            </a>
-          </section>
-          <section data-state="soothe">
-            <h2>"soothe"</h2>
-            <a href="#" class="image navigate-next">
-              <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(-90deg);">
-            </a>
-          </section>
-        </section>
-
-        <section data-state="customevent">
-          <h2>Custom Events</h2>
-          <p>
-            Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-          </p>
-          <pre><code contenteditable style="font-size: 18px; margin-top: 20px;">Reveal.addEventListener( 'customevent', function() {
-  console.log( '"customevent" has fired' );
-} );
-          </code></pre>
-        </section>
-
-        <section>
-          <h2>Clever Quotes</h2>
-          <p>
-            These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-            The nice thing about standards is that there are so many to choose from</q> and block:
-          </p>
-          <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-            For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-            reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
-          </blockquote>
-        </section>
-
-        <section>
-          <h2>Pretty Code</h2>
-          <pre><code contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
-  }
-}
-          </code></pre>
-          <p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-        </section>
-
-        <section>
-          <h2>Intergalactic Interconnections</h2>
-          <p>
-            You can link between slides internally,
-            <a href="#/2/3">like this</a>.
-          </p>
-        </section>
-
-        <section>
-          <section>
-            <h2>Fragmented Views</h2>
-            <p>Hit the next arrow...</p>
-            <p class="fragment">... to step through ...</p>
-            <ol>
-              <li class="fragment"><code>any type</code></li>
-              <li class="fragment"><em>of view</em></li>
-              <li class="fragment"><strong>fragments</strong></li>
-            </ol>
-
-            <aside class="notes">
-              This slide has fragments which are also stepped through in the notes window.
-            </aside>
-          </section>
-          <section>
-            <h2>Fragment Styles</h2>
-            <p>There's a few styles of fragments, like:</p>
-            <p class="fragment grow">grow</p>
-            <p class="fragment shrink">shrink</p>
-            <p class="fragment roll-in">roll-in</p>
-            <p class="fragment fade-out">fade-out</p>
-            <p class="fragment highlight-red">highlight-red</p>
-            <p class="fragment highlight-green">highlight-green</p>
-            <p class="fragment highlight-blue">highlight-blue</p>
-          </section>
-        </section>
-
-        <section>
-          <h2>Spectacular image!</h2>
-          <a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-            <img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
+          <a href="9_Home-Exploration-newcolors-full.html">
+            <img src="images/8_Home-Exploration-newcolors-small.png" width="1024" height="768" alt="8 Home Exploration Newcolors Small">
           </a>
         </section>
 
         <section>
-          <h2>Export to PDF</h2>
-          <p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-          <iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-          <script>
-            document.getElementById('slideshare').attributeName = 'allowfullscreen';
-          </script>
+          <img src="images/10_old-product-detail.png" width="1024" height="768" alt="10 Old Product Detail">
         </section>
 
         <section>
-          <h2>Take a Moment</h2>
-          <p>
-            Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
-            during a presentation.
-          </p>
+          <a href="12_ProductPage-July13-full.html">
+            <img src="images/11_ProductPage-July13-small.png" width="1024" height="768" alt="11 ProductPage July13 Small">
+          </a>
         </section>
 
         <section>
-          <h2>Stellar Links</h2>
+          <img src="images/13_StylePage-sportsbras-old.png" width="1024" height="768" alt="13 StylePage Sportsbras Old">
+        </section>
+
+        <section>
+          <img src="images/14_StylePage-sportsbras.png" width="1024" height="768" alt="14 StylePage Sportsbras">
+        </section>
+
+        <section>
+          <img src="images/15_old-personalshop.png" width="1024" height="768" alt="15 Old Personalshop">
+        </section>
+
+        <section>
+          <a href="17_PersonalShop-Exploration-Full.html">
+            <img src="images/16_PersonalShop-Exploration-small.png" width="1024" height="768" alt="16 PersonalShop Exploration Small"></a>
+        </section>
+
+        <section>
+          <h3>More design to come!</h3>
+          <br />
           <ul>
-            <li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-            <li><a href="http://hakim.se/projects/reveal-js">Leave feedback on my site</a></li>
-            <li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
+            <li>New tissue paper</li>
+            <li>New boxes for specialty items</li>
+            <li>Beauty (+ Light) brand story page</li>
+            <li>New paper collateral for boxes</li>
+            <li>More re-designs of browse pages</li>
+            <li>Holiday gift cards</li>
+            <li>New panty book packaging</li>
           </ul>
         </section>
-
-        <section>
-          <h2>It's free</h2>
-          <p>
-            reveal.js and <a href="http://www.rvl.io">rvl.io</a> are entirely free but if you'd like to support the projects you can donate below.
-            Donations will go towards hosting and domain costs.
-          </p>
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_donations">
-            <input type="hidden" name="business" value="hakim.elhattab@gmail.com">
-            <input type="hidden" name="lc" value="US">
-            <input type="hidden" name="item_name" value="reveal.js / rvl.io">
-            <input type="hidden" name="no_note" value="0">
-            <input type="hidden" name="currency_code" value="USD">
-            <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-          </form>
-        </section>
-
-        <section>
-          <h1>THE END</h1>
-          <h3>BY Hakim El Hattab / hakim.se</h3>
-        </section> -->
 
       </div>
 
     </div>
 
     <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.min.js"></script>
+    <script src="js/reveal.js"></script>
 
     <script>
 
